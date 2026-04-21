@@ -1,7 +1,7 @@
 package org.example;
 
 abstract class DishDecorator implements Dish {
-    protected Dish base;
+    private Dish base;
     public DishDecorator(Dish base) {
         this.base = base;
     }

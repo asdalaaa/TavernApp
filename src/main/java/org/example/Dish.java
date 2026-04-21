@@ -1,6 +1,6 @@
 package org.example;
 
 interface Dish {
-    String getName();
-    int getPrice();
+    public String getName();
+    public int getPrice();
 }
